@@ -2,9 +2,9 @@
 /**
  * Lang strings
  *
- * @package    report
+ * @package    report_up1rofstats
  * @subpackage up1rofstats
- * @copyright  2012-2014 Silecs {@link http://www.silecs.info/societe}
+ * @copyright  2012-2020 Silecs {@link http://www.silecs.info/societe}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

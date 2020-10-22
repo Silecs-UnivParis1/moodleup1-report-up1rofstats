@@ -1,9 +1,7 @@
 <?php
-
 /**
- * @package    report
- * @subpackage up1rofstats
- * @copyright  2012-2014 Silecs {@link http://www.silecs.info/societe}
+ * @package    report_up1rofstats
+ * @copyright  2012-2020 Silecs {@link http://www.silecs.info/societe}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -22,8 +20,6 @@ list($record, $top) = rof_get_record($rofid);
 $record->localname = $localname;
 $record->timemodified = time();
 
-//var_dump($record);
-//die();
 $DB->update_record($table, $record, false);
 
 $url = new moodle_url('/report/up1rofstats/view.php', array('rofid' => $rofid));
